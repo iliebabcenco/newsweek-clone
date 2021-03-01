@@ -1,7 +1,6 @@
 # Newsweek Clone 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Newsweek Clone 
 
 > This is a clone of Newsweek Page header and footer.
 There we have applied Bootstrap.
@@ -9,6 +8,7 @@ It has:
 - a responsive header;
 - a responsive footer.
 
+<img src="assets/1.png">
 
 ## Built With
 
@@ -26,7 +26,7 @@ It has:
 
 ## Live Demo
 
-
+https://iliebabcenco.github.io/newsweek-clone/
 
 ## 🤝 Contributing
 
