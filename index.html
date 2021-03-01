@@ -17,11 +17,16 @@
     <header class="">
         <nav class="">
             <div class="container-xl top-menu">
-                <div class="row top-bar d-flex bg-danger list-unstyled align-items-center">
-                    <div class="col-6">
-                        <a href="#" title="icon"><img src="assets/icon.png" alt="" style="width: 150px;"></a>
+                <div class="row top-bar d-flex bg-danger align-items-center justify-content-lg-between">
+                    <div class="col-lg-4 d-none d-lg-block"><time class="text-white d-none d-lg-block"
+                            datetime="2021-01-20">Wed,
+                            Jan 20,
+                            2021</time></div>
+                    <div class="col-6 col-lg-4 text-center">
+                        <a href="#" title="icon"><img src="assets/icon.png" class="w-75" alt=""
+                                style="width: 150px;"></a>
                     </div>
-                    <div class="col-6 d-flex justify-content-end align-items-center">
+                    <div class="col-6 col-lg-4 d-flex justify-content-end align-items-center">
                         <a href="#" title="user" class="text-white ms-3"><i class="fa fa-user"
                                 aria-hidden="true"></i></a>
                         <button type="button" class="btn btn-warning rounded fw-bold h6 ms-3 mt-2">SUBSCRIBE
@@ -34,7 +39,7 @@
             </div>
 
             <div class="container-xl middle-menu">
-                <ul class="row list-unstyled d-sm-flex d-none">
+                <ul class="row list-unstyled d-lg-flex d-none">
                     <li class="col"><a href="#" class="text-decoration-none fw-bold text-dark">World</a></li>
                     <li class="col"><a href="#" class="text-decoration-none fw-bold text-dark">Business</a></li>
                     <li class="col"><a href="#" class="text-decoration-none fw-bold text-dark">Tech & Science</a></li>
@@ -45,14 +50,14 @@
                     <li class="col"><a href="#" class="text-decoration-none fw-bold text-dark">The Debate</a></li>
                     <li class="col"><a href="#" class="text-decoration-none fw-bold text-dark">Experts</a></li>
                     <li class="col"><a href="#" class="text-decoration-none fw-bold text-dark">Vantage</a></li>
-                    <li class="col"><a href="#" class="text-decoration-none fw-bold text-dark"> Search</a><i
-                            class="fa fa-search" aria-hidden="true"></i>
+                    <li class="col"><a href="#" class="text-decoration-none fw-bold text-dark">Search </a><i
+                            class="fa fa-search ms-2" aria-hidden="true"></i>
                     </li>
                 </ul>
 
             </div>
             <div class="container-xl bottom-menu">
-                <ul class="row list-unstyled d-sm-flex d-none">
+                <ul class="row list-unstyled d-lg-flex d-none">
                     <li class="col"><a href="#" class="text-decoration-none fw-bold text-secondary">TRENDING</a></li>
                     <li class="col"><a href="#" class="text-decoration-none fw-bold text-secondary">JOE BIDEN</a></li>
                     <li class="col"><a href="#" class="text-decoration-none fw-bold text-secondary">DONALD TRUMP</a>
@@ -70,12 +75,13 @@
             </div>
         </nav>
     </header>
-    <footer>
+    <main></main>
+    <footer style="position: absolute; bottom: 0; left: 0; right: 0;">
         <div class="container-xl">
-            <div class="row list-unstyled d-flex align-items-start justify-content-around flex-column flex-sm-row">
-                <div class="col"><img src="./assets/Newsweeklogo2.png" alt=""></div>
-                <div class="col"> &copy; 2021 NEWSWEEK DIGITAL LLC</div>
-                <div class="col d-flex justify-content-end">
+            <div class="row list-unstyled d-flex flex-column flex-sm-row align-items-center">
+                <div class="col mt-2"><img src="./assets/Newsweeklogo2.png" alt=""></div>
+                <div class="col mt-2"> &copy; 2021 NEWSWEEK DIGITAL LLC</div>
+                <div class="col d-flex mt-2 justify-content-sm-end">
                     <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                     <i class="fa fa-twitter-square fa-2x ms-2" aria-hidden="true"></i>
                     <i class="fa fa-instagram fa-2x ms-2" aria-hidden="true"></i>
@@ -85,14 +91,15 @@
             </div>
         </div>
 
-
+        <br>
+        <hr>
         <div class="container-xl">
-            <p>Edition:</p>
-            <ul class="row list-unstyled">
-                <li class="col"><a href="#" class="text-decoration-none text-secondary">US Edition</a></li>
-                <li class="col"><a href="#" class="text-decoration-none text-secondary">CHINA NEWS</a></li>
-                <li class="col"><a href="#" class="text-decoration-none text-secondary">Polska</a></li>
-                <li class="col"><a href="#" class="text-decoration-none text-secondary">Romanian</a></li>
+            <p class="fw-bold text-secondary ">Edition:</p>
+            <ul class="row d-flex list-unstyled justify-content-start">
+                <li class="col-2"><a href="#" class="text-decoration-none text-secondary">US Edition</a></li>
+                <li class="col-2"><a href="#" class="text-decoration-none text-secondary">CHINA NEWS</a></li>
+                <li class="col-2"><a href="#" class="text-decoration-none text-secondary">Polska</a></li>
+                <li class="col-2"><a href="#" class="text-decoration-none text-secondary">Romanian</a></li>
             </ul>
         </div>
         <div class="container-xl">
