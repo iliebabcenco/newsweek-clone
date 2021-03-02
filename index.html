@@ -2,304 +2,642 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        crossorigin="anonymous">
-    <title>Newsweek Clone</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+                crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+                crossorigin="anonymous">
+        <title>Newsweek Clone</title>
 </head>
 
 <body>
 
-    <header class="">
-        <nav class="">
-            <div class="container-xl top-menu">
-                <div class="row top-bar d-flex bg-danger align-items-center justify-content-lg-between">
-                    <div class="col-lg-4 d-none d-lg-block"><time class="text-white d-none d-lg-block"
-                            datetime="2021-01-20">Wed,
-                            Jan 20,
-                            2021</time></div>
-                    <div class="col-6 col-lg-4 text-center">
-                        <a href="#" title="icon"><img src="assets/icon.png" class="w-75" alt=""
-                                style="width: 150px;"></a>
-                    </div>
-                    <div class="col-6 col-lg-4 d-flex justify-content-end align-items-center">
-                        <a href="#" title="user" class="text-white ms-3 d-lg-none"><i class="fa fa-user"
-                                aria-hidden="true"></i></a>
-                        <a href="#" class="text-white ms-3 d-none d-lg-block text-decoration-none fw-bold">LOGIN</a>
-                        <button type="button" class="btn btn-warning rounded fw-bold h6 ms-3 mt-2">SUBSCRIBE
-                        </button>
-                        <a href="#" title="menu" class="text-white ms-3 d-lg-none"><i class="fa fa-bars"
-                                aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-xl middle-menu">
-                <ul class="row list-unstyled d-lg-flex d-none border-bottom">
-                    <li class="col text-center my-3 px-0 border-end"><a href="#"
-                            class="text-decoration-none fw-bold text-dark">World</a>
-                    </li>
-                    <li class="col text-center my-auto border-end"><a href="#"
-                            class="text-decoration-none fw-bold text-dark">Business</a>
-                    </li>
-                    <li class="col text-center my-auto border-end"><a href="#"
-                            class="text-decoration-none fw-bold text-dark text-nowrap">Tech
-                            & Science</a></li>
-                    <li class="col text-center my-auto border-end"><a href="#"
-                            class="text-decoration-none fw-bold text-dark">Culture</a>
-                    </li>
-                    <li class="col text-center my-auto border-end">
-                        <a href="#" class="text-decoration-none fw-bold text-dark">Newsgeen</a>
-                    </li>
-                    <li class="col text-center my-auto border-end"><a href="#"
-                            class="text-decoration-none fw-bold text-dark">Sports</a>
-                    </li>
-                    <li class="col text-center my-auto border-end"><a href="#"
-                            class="text-decoration-none fw-bold text-dark">Health</a>
-                    </li>
-                    <li class="col text-center my-auto border-end"><a href="#"
-                            class="text-decoration-none fw-bold text-dark text-nowrap">The
-                            Debate</a></li>
-                    <li class="col text-center my-auto border-end"><a href="#"
-                            class="text-decoration-none fw-bold text-dark">Experts</a>
-                    </li>
-                    <li class="col text-center my-auto"><a href="#"
-                            class="text-decoration-none fw-bold text-dark">Vantage</a>
-                    </li>
-                    <li class="col text-center my-auto">
-                        <form class="row text-nowrap" action="#">
-
-                            <input class="col border-0 d-inline mx-0 px-0" title="search-field" type="text"
-                                placeholder="Search ">
-                            <i class="fa fa-search d-inline mx-0 px-0 col py-2" aria-hidden="true"></i>
-                        </form>
-
-                    </li>
-                </ul>
-
-            </div>
-            <div class="container-xl bottom-menu">
-                <ul class="row list-unstyled d-lg-flex d-none border-bottom justify-content-lg-between">
-                    <li class="col text-center px-0 mb-3"><a href="#"
-                            class="text-decoration-none fw-bold text-secondary">TRENDING</a></li>
-                    <li class="col text-center px-0"><a href="#"
-                            class="text-decoration-none fw-bold text-secondary text-nowrap">JOE BIDEN</a></li>
-                    <li class="col text-center px-2"><a href="#"
-                            class="text-decoration-none fw-bold text-secondary text-nowrap">DONALD TRUMP </a>
-                    </li>
-                    <li class="col text-center px-0"><a href="#" class="text-decoration-none fw-bold text-secondary">
-                            INAUGURATION</a>
-                    </li>
-                    <li class="col text-center px-2"><a href="#"
-                            class="text-decoration-none fw-bold text-secondary">CORONAVIRUS</a></li>
-                    <li class="col text-center px-2"><a href="#"
-                            class="text-decoration-none fw-bold text-secondary text-nowrap">STIMULUS PACKAGE</a>
-                    </li>
-                    <li class="col text-center px-0"><a href="#"
-                            class="text-decoration-none fw-bold text-secondary">VACCINE</a></li>
-                    <li class="col text-center px-2"><a href="#"
-                            class="text-decoration-none fw-bold text-secondary text-nowrap">CAPITOL RIOTS</a>
-                    </li>
-                </ul>
-
-            </div>
-        </nav>
-    </header>
-    <main>
-            <section>
-            <div class="container">
-                    <div class="row">
-                            <div class="col-4">
-                                    <h6 class="text-secondary">FEATURED STORIES</h6>
-                                    <article>
-                                        <img class=" w-100"src="./assets/asset 0.jpeg" alt="pic1">
-                                        <a class="text-dark text-decoration-none" href="#"><h4 class="my-2">The 73 People Pardoned by Donald Trump On His Last Day 
-                                                as President</h4></a>
-                                        <p>Notable people pardoned by Trump today include former 
-                                        White House chief strategist Steve Bannon and rapper Lil Wayne.</p>
-                                    </article>
-                                    <article>
-                                        <img class=" w-100"src="./assets/asset 1.jpeg" alt="pic2">
-                                        <a class="text-dark text-decoration-none" href="#"><h4 class="my-2">Donald Trump Can Issue Secret Pardons, But they are Risky</h4 >
-                                          </a>
-                                        <p>Trump chose not to issue pardons for himself of his personal attorney, former New York Mayor Rudy Giuliani.</p>
-                                    </article>
-                                    <article>
-                                        <img class=" w-100"src="./assets/asset 2.png" alt="pic3">
-                                        <a class="text-dark text-decoration-none" href="#"><h4 class="my-2">Newsweek Announces Launch Of The Newsweek Expert Forum</h4></a>
-                                        <p>Newsweek Expert Forum creates cohort of thought leaders, pioneering 
-                                                thinkers to share insights, expertise from range of professions, industries.</p>
-                                    </article>
-                                    <article>
-                                        <img class=" w-100"src="./assets/asset 3.jpeg" alt="pic4">
-                                        <a class="text-dark text-decoration-none" href="#"><h4 class="my-2">Can  Joe Biden Rescind Trump's Pardon</h4></a>
-                                                
-                                        <p>The president did not issue pardons for himself, his children or for former New York Mayor Rudy Giuliani.</p>
-                                    </article>
-                                    <article>
-                                        <img class=" w-100"src="./assets/asset 4.jpeg" alt="pic5">
-                                        <a class="text-dark text-decoration-none" href="#"><h4 class="my-2">Joe Biden's Immigration Plan Upends Donald Trump's Legacy</h4></a>
-                                                
-                                        <p>The Biden Administration will issue an order stopping construction of the border wall on its first day.</p>
-                                    </article>
-                                    <article>
-                                        <img class=" w-100"src="./assets/asset 60.jpeg" alt="pic7">
-                                        <a class="text-dark text-decoration-none" href="#"><h4 class="my-2">Hokkaido: Japan's northern Frontier</h4></a>
-                                        <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural spectacles, 
-                                                Hokkaido offers an experience that is completely different from the rest of Japan.</p>
-                                    </article>
-                                    <article>
-                                        <img class=" w-100"src="./assets/asset 68.jpeg" alt="pic8">
-                                        <a class="text-dark text-decoration-none" href="#"><h4 class="my-2">What Makes International Schools Special?</h4></a>
-                                        <p>One of the single most important decisions you make for your child is whom to entrust with their education. 
-                                                See why so many parents are turning to International Schools.</p>
-                                    </article>
-                                    <article>
-                                        <img class=" w-100"src="./assets/asset 62.png" alt="pic9">
-                                        <a class="text-dark text-decoration-none" href="#"><h4 class="my-2">America's Most Responsible Companies 2021</h4></a>
-                                        <p>We partnered with Statista to rank the country's Most Responsible Companies. 
-                                                They share the values that we all prioritize, and that's worth recognizing in 2021</p>
-                                    </article>
-                                    <article>
-                                        <img class=" w-100"src="./assets/asset 63.jpeg" alt="pic10">
-                                        <a class="text-dark text-decoration-none" href="#"><h4 class="my-2">This Start Is Making Long Distance Real Estate Investing Possible For Millenials</h4></a>
-                                        <p>75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p>
-                                    </article>
-                            </div>
-
-                            <div class="col-5">
-                                    <h6 class="text-secondary">TOP STORY</h6>
-                                    <article>
-                                            <img class="w-100" src="./assets/asset 5.jpeg" alt="">
-                                    </article>
-                                    <a class="text-dark text-decoration-none"href="#"><h3>Joe Biden's First Executive Actions Undo Many of Donald Trump's</h3></a>
-                                    <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among 
-                                            the first taken as he begins his tenure.</p>
-                            </div>
-
-                            <div class="col-3">
-                                <h6 class="text-secondary">THE DEBATE</h6>
-                                    <article>
-                                            <div>
-                                            <img src="./assets/asset 33.png" alt="">
-                                            <a class="text-dark text-decoration-none"href="#"><h6>Media Have Every Right To Cancel Trump</h6></a>
-                                            <a class="text-secondary text-decoration-none" href="#"><p>BY FROMA HARROP</p></a>
+        <header class="">
+                <nav class="">
+                        <div class="container-xl top-menu">
+                                <div class="row top-bar d-flex bg-danger align-items-center justify-content-lg-between">
+                                        <div class="col-lg-4 d-none d-lg-block"><time
+                                                        class="text-white d-none d-lg-block" datetime="2021-01-20">Wed,
+                                                        Jan 20,
+                                                        2021</time></div>
+                                        <div class="col-6 col-lg-4 text-center">
+                                                <a href="#" title="icon"><img src="assets/icon.png" class="w-75" alt=""
+                                                                style="width: 150px;"></a>
                                         </div>
-                                        <div>
-                                                <a class="text-dark text-decoration-none"href="#"><h3>After Parler Ban, Rein In Big Tech Now or Cease Being Free Citizens</h3></a>
-                                                <img src="./assets/asset 34.png" alt="">
-                                                <p>BY RACHEL BOVARD</p>
+                                        <div class="col-6 col-lg-4 d-flex justify-content-end align-items-center">
+                                                <a href="#" title="user" class="text-white ms-3 d-lg-none"><i
+                                                                class="fa fa-user" aria-hidden="true"></i></a>
+                                                <a href="#"
+                                                        class="text-white ms-3 d-none d-lg-block text-decoration-none fw-bold">LOGIN</a>
+                                                <button type="button"
+                                                        class="btn btn-warning rounded fw-bold h6 ms-3 mt-2">SUBSCRIBE
+                                                </button>
+                                                <a href="#" title="menu" class="text-white ms-3 d-lg-none"><i
+                                                                class="fa fa-bars" aria-hidden="true"></i></a>
                                         </div>
-                                        <div>
-                                             <h3>OPINION</h3>   
-                                             <div>
-                                                <img src="./assets/asset 35.png" alt="">
-                                                <a class="text-dark text-decoration-none"href="#"><h6>U.S. Supply Chain: Stop Driving Blind</h6></a>
-                                               <p>BY FRANK CILLUFFO AND STEWART BAKER</p>
-                                             </div>
+                                </div>
+                        </div>
+
+                        <div class="container-xl middle-menu">
+                                <ul class="row list-unstyled d-lg-flex d-none border-bottom">
+                                        <li class="col text-center my-3 px-0 border-end"><a href="#"
+                                                        class="text-decoration-none fw-bold text-dark">World</a>
+                                        </li>
+                                        <li class="col text-center my-auto border-end"><a href="#"
+                                                        class="text-decoration-none fw-bold text-dark">Business</a>
+                                        </li>
+                                        <li class="col text-center my-auto border-end"><a href="#"
+                                                        class="text-decoration-none fw-bold text-dark text-nowrap">Tech
+                                                        & Science</a></li>
+                                        <li class="col text-center my-auto border-end"><a href="#"
+                                                        class="text-decoration-none fw-bold text-dark">Culture</a>
+                                        </li>
+                                        <li class="col text-center my-auto border-end">
+                                                <a href="#" class="text-decoration-none fw-bold text-dark">Newsgeen</a>
+                                        </li>
+                                        <li class="col text-center my-auto border-end"><a href="#"
+                                                        class="text-decoration-none fw-bold text-dark">Sports</a>
+                                        </li>
+                                        <li class="col text-center my-auto border-end"><a href="#"
+                                                        class="text-decoration-none fw-bold text-dark">Health</a>
+                                        </li>
+                                        <li class="col text-center my-auto border-end"><a href="#"
+                                                        class="text-decoration-none fw-bold text-dark text-nowrap">The
+                                                        Debate</a></li>
+                                        <li class="col text-center my-auto border-end"><a href="#"
+                                                        class="text-decoration-none fw-bold text-dark">Experts</a>
+                                        </li>
+                                        <li class="col text-center my-auto"><a href="#"
+                                                        class="text-decoration-none fw-bold text-dark">Vantage</a>
+                                        </li>
+                                        <li class="col text-center my-auto">
+                                                <form class="row text-nowrap" action="#">
+
+                                                        <input class="col border-0 d-inline mx-0 px-0"
+                                                                title="search-field" type="text" placeholder="Search ">
+                                                        <i class="fa fa-search d-inline mx-0 px-0 col py-2"
+                                                                aria-hidden="true"></i>
+                                                </form>
+
+                                        </li>
+                                </ul>
+
+                        </div>
+                        <div class="container-xl bottom-menu">
+                                <ul class="row list-unstyled d-lg-flex d-none border-bottom justify-content-lg-between">
+                                        <li class="col text-center px-0 mb-3"><a href="#"
+                                                        class="text-decoration-none fw-bold text-secondary">TRENDING</a>
+                                        </li>
+                                        <li class="col text-center px-0"><a href="#"
+                                                        class="text-decoration-none fw-bold text-secondary text-nowrap">JOE
+                                                        BIDEN</a></li>
+                                        <li class="col text-center px-2"><a href="#"
+                                                        class="text-decoration-none fw-bold text-secondary text-nowrap">DONALD
+                                                        TRUMP </a>
+                                        </li>
+                                        <li class="col text-center px-0"><a href="#"
+                                                        class="text-decoration-none fw-bold text-secondary">
+                                                        INAUGURATION</a>
+                                        </li>
+                                        <li class="col text-center px-2"><a href="#"
+                                                        class="text-decoration-none fw-bold text-secondary">CORONAVIRUS</a>
+                                        </li>
+                                        <li class="col text-center px-2"><a href="#"
+                                                        class="text-decoration-none fw-bold text-secondary text-nowrap">STIMULUS
+                                                        PACKAGE</a>
+                                        </li>
+                                        <li class="col text-center px-0"><a href="#"
+                                                        class="text-decoration-none fw-bold text-secondary">VACCINE</a>
+                                        </li>
+                                        <li class="col text-center px-2"><a href="#"
+                                                        class="text-decoration-none fw-bold text-secondary text-nowrap">CAPITOL
+                                                        RIOTS</a>
+                                        </li>
+                                </ul>
+
+                        </div>
+                </nav>
+        </header>
+        <main>
+                <section>
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-4">
+                                                <h6 class="text-secondary">FEATURED STORIES</h6>
+                                                <article>
+                                                        <img class=" w-100" src="./assets/asset 0.jpeg" alt="pic1">
+                                                        <a class="text-dark text-decoration-none" href="#">
+                                                                <h4 class="my-2">The 73 People Pardoned by Donald Trump
+                                                                        On His Last Day
+                                                                        as President</h4>
+                                                        </a>
+                                                        <p>Notable people pardoned by Trump today include former
+                                                                White House chief strategist Steve Bannon and rapper Lil
+                                                                Wayne.</p>
+                                                </article>
+                                                <article>
+                                                        <img class=" w-100" src="./assets/asset 1.jpeg" alt="pic2">
+                                                        <a class="text-dark text-decoration-none" href="#">
+                                                                <h4 class="my-2">Donald Trump Can Issue Secret Pardons,
+                                                                        But they are Risky</h4>
+                                                        </a>
+                                                        <p>Trump chose not to issue pardons for himself of his personal
+                                                                attorney, former New York Mayor Rudy Giuliani.</p>
+                                                </article>
+                                                <article>
+                                                        <img class=" w-100" src="./assets/asset 2.png" alt="pic3">
+                                                        <a class="text-dark text-decoration-none" href="#">
+                                                                <h4 class="my-2">Newsweek Announces Launch Of The
+                                                                        Newsweek Expert Forum</h4>
+                                                        </a>
+                                                        <p>Newsweek Expert Forum creates cohort of thought leaders,
+                                                                pioneering
+                                                                thinkers to share insights, expertise from range of
+                                                                professions, industries.</p>
+                                                </article>
+                                                <article>
+                                                        <img class=" w-100" src="./assets/asset 3.jpeg" alt="pic4">
+                                                        <a class="text-dark text-decoration-none" href="#">
+                                                                <h4 class="my-2">Can Joe Biden Rescind Trump's Pardon
+                                                                </h4>
+                                                        </a>
+
+                                                        <p>The president did not issue pardons for himself, his children
+                                                                or for former New York Mayor Rudy Giuliani.</p>
+                                                </article>
+                                                <article>
+                                                        <img class=" w-100" src="./assets/asset 4.jpeg" alt="pic5">
+                                                        <a class="text-dark text-decoration-none" href="#">
+                                                                <h4 class="my-2">Joe Biden's Immigration Plan Upends
+                                                                        Donald Trump's Legacy</h4>
+                                                        </a>
+
+                                                        <p>The Biden Administration will issue an order stopping
+                                                                construction of the border wall on its first day.</p>
+                                                </article>
+                                                <article>
+                                                        <img class=" w-100" src="./assets/asset 60.jpeg" alt="pic7">
+                                                        <a class="text-dark text-decoration-none" href="#">
+                                                                <h4 class="my-2">Hokkaido: Japan's northern Frontier
+                                                                </h4>
+                                                        </a>
+                                                        <p>Featuring a unique history, uninhibited wildness and at times
+                                                                otherworldly natural spectacles,
+                                                                Hokkaido offers an experience that is completely
+                                                                different from the rest of Japan.</p>
+                                                </article>
+                                                <article>
+                                                        <img class=" w-100" src="./assets/asset 68.jpeg" alt="pic8">
+                                                        <a class="text-dark text-decoration-none" href="#">
+                                                                <h4 class="my-2">What Makes International Schools
+                                                                        Special?</h4>
+                                                        </a>
+                                                        <p>One of the single most important decisions you make for your
+                                                                child is whom to entrust with their education.
+                                                                See why so many parents are turning to International
+                                                                Schools.</p>
+                                                </article>
+                                                <article>
+                                                        <img class=" w-100" src="./assets/asset 62.png" alt="pic9">
+                                                        <a class="text-dark text-decoration-none" href="#">
+                                                                <h4 class="my-2">America's Most Responsible Companies
+                                                                        2021</h4>
+                                                        </a>
+                                                        <p>We partnered with Statista to rank the country's Most
+                                                                Responsible Companies.
+                                                                They share the values that we all prioritize, and that's
+                                                                worth recognizing in 2021</p>
+                                                </article>
+                                                <article>
+                                                        <img class=" w-100" src="./assets/asset 63.jpeg" alt="pic10">
+                                                        <a class="text-dark text-decoration-none" href="#">
+                                                                <h4 class="my-2">This Start Is Making Long Distance Real
+                                                                        Estate Investing Possible For Millenials</h4>
+                                                        </a>
+                                                        <p>75% of Roofstock users are first-time real estate investors,
+                                                                and more than half are under 35.</p>
+                                                </article>
                                         </div>
 
-                                    </article>
-                            </div>
-                    </div>
-            </div>
-        </section>
-    </main>
-    <footer style="position: relative; bottom: 0; left: 0; right: 0;">
-        <div class="container-xl">
-            <div class="row list-unstyled d-flex flex-column flex-lg-row align-items-center">
-                <div class="col mt-2 d-lg-flex"><a href="#" title="logo-img"><img src="./assets/Newsweeklogo2.png"
-                            alt=""></a>
-                    <p class="col my-3"> &copy; 2021 NEWSWEEK DIGITAL LLC</p>
+                                        <div class="col-5">
+                                                <article>
+                                                        <h6 class="text-secondary">TOP STORY</h6>
+                                                        <img class="w-100" src="./assets/asset 5.jpeg" alt="">
+                                                        <a class="text-dark text-decoration-none" href="#">
+                                                                <h3>Joe Biden's First Executive Actions Undo Many of
+                                                                        Donald Trump's</h3>
+                                                        </a>
+                                                        <p>Actions related to the COVID-19 crisis, climate change and
+                                                                racial equality are to be among
+                                                                the first taken as he begins his tenure.</p>
+                                                </article>
+                                                <section class="my-turn-section my-4">
+                                                        <h6 class="text-secondary">MY TURN</h6>
+                                                        <div class="row">
+                                                                <div class="col">
+                                                                        <a href="#"><img class="w-100"
+                                                                                        src="assets/asset 6.jpeg"
+                                                                                        alt="pic-6"></a>
+                                                                        <p class="my-2"><a href="#"
+                                                                                        class="text-secondary text-decoration-none fw-bold">'I
+                                                                                        Married
+                                                                                        My Best Friend to
+                                                                                        Avoid
+                                                                                        Inheritance Tax'</a>
+                                                                        </p>
+                                                                </div>
+                                                                <div class="col">
+                                                                        <a href="#"><img class="w-100"
+                                                                                        src="assets/asset 7.jpeg"
+                                                                                        alt="pic-6"></a>
+                                                                        <p class="my-2"><a href="#"
+                                                                                        class="text-secondary text-decoration-none fw-bold">'I've
+                                                                                        Rescued Hundreds of Special
+                                                                                        Needs Dogs'</a>
+                                                                        </p>
+                                                                </div>
+                                                                <div class="col">
+                                                                        <a href="#"><img class="w-100"
+                                                                                        src="assets/asset 8.jpeg"
+                                                                                        alt="pic-6"></a>
+                                                                        <p class="my-2"><a href="#"
+                                                                                        class="text-secondary text-decoration-none fw-bold">Why
+                                                                                        I
+                                                                                        Accepted Trump's Medal
+                                                                                        Of Arts</a></p>
+                                                                </div>
+                                                        </div>
+                                                </section>
+                                                <section class="culture-travel-section my-4">
+                                                        <h6 class="text-secondary">CULTURE & TRAVEL</h6>
+                                                        <div class="row">
+                                                                <div class="col">
+                                                                        <a href="#"><img class="w-100"
+                                                                                        src="assets/asset 9.jpeg"
+                                                                                        alt="pic-6"></a>
+                                                                        <p class="my-2"><a href="#"
+                                                                                        class="text-secondary text-decoration-none fw-bold">
+                                                                                        The Secrets to Happiness Around
+                                                                                        the World</a>
+                                                                        </p>
+                                                                </div>
+                                                                <div class="col">
+                                                                        <a href="#"><img class="w-100"
+                                                                                        src="assets/asset 10.jpeg"
+                                                                                        alt="pic-6"></a>
+                                                                        <p class="my-2"><a href="#"
+                                                                                        class="text-secondary text-decoration-none fw-bold">Where
+                                                                                        We Are Dreaming of Traveling in
+                                                                                        2021</a>
+                                                                        </p>
+                                                                </div>
+                                                                <div class="col">
+                                                                        <a href="#"><img class="w-100"
+                                                                                        src="assets/asset 11.jpeg"
+                                                                                        alt="pic-6"></a>
+                                                                        <p class="my-2"><a href="#"
+                                                                                        class="text-secondary text-decoration-none fw-bold">These
+                                                                                        Are the Top 100 Songs of
+                                                                                        2020</a></p>
+                                                                </div>
+                                                        </div>
+                                                </section>
+                                                <section class="more-stories-section">
+                                                        <h6 class="text-secondary">MORE STORIES</h6>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 12.jpeg"
+                                                                                alt="pic-12"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">Biden's
+                                                                                        Biggest
+                                                                                        Challenge?
+                                                                                        67,000 Migrants Stranded
+                                                                                        at U.S.-Mexico Border</a></h6>
+                                                                        <p class="">The incoming president
+                                                                                has not
+                                                                                said what he plans to
+                                                                                do with the tens of thousands of
+                                                                                asylum-seekers
+                                                                                living in limbo in crowded shelters and
+                                                                                makeshift camps along the border.</p>
+                                                                </div>
+                                                        </article>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 13.jpeg"
+                                                                                alt="pic-13"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">Evangelicals,
+                                                                                        Police, Who Disliked Trump
+                                                                                        Immigration Policy May Back
+                                                                                        Reform</a></h6>
+                                                                        <p class="">Religious conservatives and
+                                                                                law-enforcement officers who were
+                                                                                uncomfortable with family separations
+                                                                                may be open to immigration reform..</p>
+                                                                </div>
+                                                        </article>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 14.jpeg"
+                                                                                alt="pic-14"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">Donald
+                                                                                        Trump Pardons Israeli Spy
+                                                                                        Handler Who Paid for American
+                                                                                        Secrets</a></h6>
+                                                                        <p class="">The president's flurry of pardons
+                                                                                include former Israeli air force colonel
+                                                                                Aviem Sella, who recruited the infamous
+                                                                                spy Jonathan Pollard.</p>
+                                                                </div>
+                                                        </article>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 15.jpeg"
+                                                                                alt="pic-15"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">Joe
+                                                                                        Biden's Schedule for His First
+                                                                                        Day As President</a></h6>
+                                                                        <p class="">Joe Biden will be sworn in as the
+                                                                                46th president of the United States at
+                                                                                noon on Wednesday. Kamala Harris will
+                                                                                become the 49th vice president.</p>
+                                                                </div>
+                                                        </article>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 16.jpeg"
+                                                                                alt="pic-16"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">U.S.
+                                                                                        Cut Russia Consulate Phones
+                                                                                        Before Trump's Last Day, Moscow
+                                                                                        Claims</a></h6>
+                                                                        <p class="">The Russian embassy in Washington,
+                                                                                DC has sent a diplomatic note to the
+                                                                                State Department after the phones at its
+                                                                                New York consulate stopped working.</p>
+                                                                </div>
+                                                        </article>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 17.jpeg"
+                                                                                alt="pic-17"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">Mississippi
+                                                                                        Bill Classifying Abortions as
+                                                                                        Murder Introduced by GOP
+                                                                                        Lawmaker</a></h6>
+                                                                        <p class="">Rep. Dan Eubanks also introduced a
+                                                                                bill to ban employers from mandating
+                                                                                COVID-19 vaccines for their staff.</p>
+                                                                </div>
+                                                        </article>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 18.jpeg"
+                                                                                alt="pic-18"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">GOP
+                                                                                        Rep. John Katko Says Capitol
+                                                                                        Riots 'Worse Than People
+                                                                                        Realized'</a></h6>
+                                                                        <p class="">New York Rep. John Katko said
+                                                                                classified briefings he had received
+                                                                                about the January 6 unrest were "deeply
+                                                                                troubling."</p>
+                                                                </div>
+                                                        </article>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 19.jpeg"
+                                                                                alt="pic-19"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">Jon
+                                                                                        Ossoff, Raphael Warnock
+                                                                                        Certified by Georgia as Senate
+                                                                                        Runoff Winners</a></h6>
+                                                                        <p class="">The two victories give Democrats
+                                                                                majority control of the Senate, since
+                                                                                Kamala Harris can break a tie vote.</p>
+                                                                </div>
+                                                        </article>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 20.jpeg"
+                                                                                alt="pic-20"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">Lauren
+                                                                                        Boebert Rejects Claims She Gave
+                                                                                        Rioters Capitol Tour</a></h6>
+                                                                        <p class="">The Colorado congresswoman said that
+                                                                                the claims made on CNN by Rep. Steve
+                                                                                Cohen had endangered her family and her
+                                                                                staff.</p>
+                                                                </div>
+                                                        </article>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 21.jpeg"
+                                                                                alt="pic-21"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">Trump
+                                                                                        Allies Await Pardons News as
+                                                                                        Clock Ticks Down on Presidential
+                                                                                        Powers</a></h6>
+                                                                        <p class="">There is speculation about the
+                                                                                president making final use of his
+                                                                                clemency powers as his time in the White
+                                                                                House draws to a close.</p>
+                                                                </div>
+                                                        </article>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 22.jpeg"
+                                                                                alt="pic-22"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">National
+                                                                                        Guard Activated in 30 States
+                                                                                        Over Fears of Inauguration
+                                                                                        Violence</a></h6>
+                                                                        <p class="">From California to Michigan, dozens
+                                                                                of states will be bolstering security,
+                                                                                including some declaring states of
+                                                                                emergency and summoning the National
+                                                                                Guard.</p>
+                                                                </div>
+                                                        </article>
+                                                        <article class="border-top my-2 clear-fix">
+                                                                <a href="#"><img class="float-start pt-2 me-2"
+                                                                                src="assets/asset 23.jpeg"
+                                                                                alt="pic-23"></a>
+                                                                <div class="pt-2">
+                                                                        <h6><a href="#"
+                                                                                        class="fw-bold text-decoration-none text-dark">Christians
+                                                                                        in Crosshairs After Capitol
+                                                                                        Riot</a></h6>
+                                                                        <p class="">Christians like Pastor Brian Gibson,
+                                                                                now in hiding, are in the crosshairs
+                                                                                after riots at the Capitol featured
+                                                                                imagery of crosses and mentions of Jesus
+                                                                                and God.</p>
+                                                                </div>
+                                                        </article>
+                                                </section>
+
+                                        </div>
+
+                                        <div class="col-3">
+                                                <h6 class="text-secondary">THE DEBATE</h6>
+                                                <article>
+                                                        <div>
+                                                                <img src="./assets/asset 33.png" alt="">
+                                                                <a class="text-dark text-decoration-none" href="#">
+                                                                        <h6>Media Have Every Right To Cancel Trump</h6>
+                                                                </a>
+                                                                <a class="text-secondary text-decoration-none" href="#">
+                                                                        <p>BY FROMA HARROP</p>
+                                                                </a>
+                                                        </div>
+                                                        <div>
+                                                                <a class="text-dark text-decoration-none" href="#">
+                                                                        <h3>After Parler Ban, Rein In Big Tech Now or
+                                                                                Cease Being Free Citizens</h3>
+                                                                </a>
+                                                                <img src="./assets/asset 34.png" alt="">
+                                                                <p>BY RACHEL BOVARD</p>
+                                                        </div>
+                                                        <div>
+                                                                <h3>OPINION</h3>
+                                                                <div>
+                                                                        <img src="./assets/asset 35.png" alt="">
+                                                                        <a class="text-dark text-decoration-none"
+                                                                                href="#">
+                                                                                <h6>U.S. Supply Chain: Stop Driving
+                                                                                        Blind</h6>
+                                                                        </a>
+                                                                        <p>BY FRANK CILLUFFO AND STEWART BAKER</p>
+                                                                </div>
+                                                        </div>
+
+                                                </article>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+        </main>
+        <footer style="position: relative; bottom: 0; left: 0; right: 0;">
+                <div class="container-xl">
+                        <div class="row list-unstyled d-flex flex-column flex-lg-row align-items-center">
+                                <div class="col mt-2 d-lg-flex"><a href="#" title="logo-img"><img
+                                                        src="./assets/Newsweeklogo2.png" alt=""></a>
+                                        <p class="col my-3"> &copy; 2021 NEWSWEEK DIGITAL LLC</p>
+                                </div>
+
+                                <div class="col d-flex mt-2 justify-content-lg-end">
+                                        <a href="#" title="facebook"><i
+                                                        class="fa fa-facebook-official fa-2x text-secondary"
+                                                        aria-hidden="true"></i></a>
+                                        <a href="#" title="twit"><i
+                                                        class="fa fa-twitter-square fa-2x ms-2 text-secondary"
+                                                        aria-hidden="true"></i></a>
+                                        <a href="#" title="insta"><i class="fa fa-instagram fa-2x ms-2 text-secondary"
+                                                        aria-hidden="true"></i></a>
+                                        <a href="#" title="tumblr"><i
+                                                        class="fa fa-tumblr-square fa-2x ms-2 text-secondary"
+                                                        aria-hidden="true"></i></a>
+                                        <a href="#" title="linkedin"><i
+                                                        class="fa fa-linkedin-square fa-2x ms-2 text-secondary"
+                                                        aria-hidden="true"></i></a>
+                                </div>
+                        </div>
                 </div>
 
-                <div class="col d-flex mt-2 justify-content-lg-end">
-                    <a href="#" title="facebook"><i class="fa fa-facebook-official fa-2x text-secondary"
-                            aria-hidden="true"></i></a>
-                    <a href="#" title="twit"><i class="fa fa-twitter-square fa-2x ms-2 text-secondary"
-                            aria-hidden="true"></i></a>
-                    <a href="#" title="insta"><i class="fa fa-instagram fa-2x ms-2 text-secondary"
-                            aria-hidden="true"></i></a>
-                    <a href="#" title="tumblr"><i class="fa fa-tumblr-square fa-2x ms-2 text-secondary"
-                            aria-hidden="true"></i></a>
-                    <a href="#" title="linkedin"><i class="fa fa-linkedin-square fa-2x ms-2 text-secondary"
-                            aria-hidden="true"></i></a>
+                <br>
+                <hr>
+                <div class="container-xl">
+
+                        <ul class="row d-flex list-unstyled justify-content-start g-2">
+                                <li class="col col-lg-1 text-nowrap text-center my-auto border-end">Edition:</li>
+                                <li class="col col-lg-1 text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">US
+                                                Edition</a>
+                                </li>
+                                <li class="col col-lg-1 text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">CHINA
+                                                NEWS</a>
+                                </li>
+                                <li class="col col-lg-1 text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">Polska</a></li>
+                                <li class="col col-lg-1 text-nowrap text-center my-auto"><a href="#"
+                                                class="text-decoration-none text-secondary">Romanian</a>
+                                </li>
+                        </ul>
+
                 </div>
-            </div>
-        </div>
+                <div class="container-xl">
+                        <ul class="row list-unstyled g-2">
+                                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">About
+                                                Us</a></li>
+                                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">Corrections</a>
+                                </li>
+                                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">Contact
+                                                us</a>
+                                </li>
+                                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">Editorial
+                                                Guidelines</a></li>
+                                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">Advertise</a>
+                                </li>
+                                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">Copyright</a>
+                                </li>
+                                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">Terms &
+                                                Conditions</a></li>
+                                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">Privacy
+                                                Policy</a>
+                                </li>
+                                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">Cookie
+                                                Policy</a>
+                                </li>
+                                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">Terms of Sale
+                                        </a>
+                                </li>
+                                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
+                                                class="text-decoration-none text-secondary">Archives</a>
+                                </li>
+                                <li class="col text-nowrap my-auto text-center"><a href="#"
+                                                class="text-decoration-none text-secondary">Announcements</a>
+                                </li>
+                        </ul>
+                </div>
 
-        <br>
-        <hr>
-        <div class="container-xl">
-
-            <ul class="row d-flex list-unstyled justify-content-start g-2">
-                <li class="col col-lg-1 text-nowrap text-center my-auto border-end">Edition:</li>
-                <li class="col col-lg-1 text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">US
-                        Edition</a>
-                </li>
-                <li class="col col-lg-1 text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">CHINA
-                        NEWS</a>
-                </li>
-                <li class="col col-lg-1 text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">Polska</a></li>
-                <li class="col col-lg-1 text-nowrap text-center my-auto"><a href="#"
-                        class="text-decoration-none text-secondary">Romanian</a>
-                </li>
-            </ul>
-
-        </div>
-        <div class="container-xl">
-            <ul class="row list-unstyled g-2">
-                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">About
-                        Us</a></li>
-                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">Corrections</a>
-                </li>
-                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">Contact
-                        us</a>
-                </li>
-                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">Editorial
-                        Guidelines</a></li>
-                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">Advertise</a>
-                </li>
-                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">Copyright</a>
-                </li>
-                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">Terms &
-                        Conditions</a></li>
-                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">Privacy
-                        Policy</a>
-                </li>
-                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">Cookie
-                        Policy</a>
-                </li>
-                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">Terms of Sale
-                    </a>
-                </li>
-                <li class="col text-nowrap text-center my-auto border-end"><a href="#"
-                        class="text-decoration-none text-secondary">Archives</a>
-                </li>
-                <li class="col text-nowrap my-auto text-center"><a href="#"
-                        class="text-decoration-none text-secondary">Announcements</a>
-                </li>
-            </ul>
-        </div>
-
-    </footer>
+        </footer>
 
 
 </body>
