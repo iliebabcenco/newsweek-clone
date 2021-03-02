@@ -1,4 +1,54 @@
-body {
+.img-content-div img {
+  background-size: cover;
+}
+
+.img-content-div {
+  position: relative;
+  color: #f72210;
+  font-weight: 750;
+}
+
+.content-type-3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.85;
   margin: 0;
-  padding: 0;
+  padding: 0.25rem;
+  color: black;
+}
+
+.content-type-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.85;
+  margin: 0;
+  padding: 0.5rem;
+  color: #3d86f4;
+}
+
+.content-type {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.85;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.first-column-main,
+.third-column-main {
+  width: 27.766666666%;
+}
+
+.second-column-main {
+  width: 44.4666666%;
+}
+
+.free-sign-section img {
+  width: 2rem;
 }
