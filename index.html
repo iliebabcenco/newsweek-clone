@@ -17,7 +17,7 @@
 
     <header class="">
         <nav class="">
-            <div class="container-xl top-menu">
+            <div class="container-xl top-menu d-sm-flex">
                 <div class="row top-bar d-flex bg-danger align-items-center justify-content-lg-between">
                     <div class="col-lg-4 d-none d-lg-block"><time class="text-white d-none d-lg-block"
                             datetime="2021-01-20">Wed,
@@ -117,15 +117,29 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="my-4">
         <section>
-            <div class="container">
+            <div class="container-xl">
                 <div class="row">
-                    <div class="first-column-main col-4">
+                    <article class="d-md-none d-block col-xs-12 order-1">
+                        <h6 class="text-secondary">TOP STORY</h6>
+                        <div class="img-content-div">
+                            <a href="#" title="href-title"><img class="w-100" src="./assets/asset 5.jpeg" alt=""></a>
+                            <p class="content-type">POLITICS</p>
+                        </div>
+                        <a class="text-dark text-decoration-none" href="#">
+                            <h3>Joe Biden's First Executive Actions Undo Many of
+                                Donald Trump's</h3>
+                        </a>
+                        <p>Actions related to the COVID-19 crisis, climate change and
+                            racial equality are to be among
+                            the first taken as he begins his tenure.</p>
+                    </article>
+                    <div class="first-column-main col-lg-3 col-md-6 col-xs-12 order-2 order-md-1">
                         <h6 class="text-secondary">FEATURED STORIES</h6>
-                        <article>
+                        <article class="">
                             <div class="img-content-div">
-                                <img class=" w-100" src="./assets/asset 0.jpeg" alt="pic1">
+                                <a href="#"><img class=" w-100" src="./assets/asset 0.jpeg" alt="pic1"></a>
                                 <p class="content-type">U.S.</p>
                             </div>
                             <a class="text-dark text-decoration-none" href="#">
@@ -139,7 +153,7 @@
                         </article>
                         <article>
                             <div class="img-content-div">
-                                <img class=" w-100" src="./assets/asset 1.jpeg" alt="pic2">
+                                <a href="#"><img class=" w-100" src="./assets/asset 1.jpeg" alt="pic2"></a>
                                 <p class="content-type">POLITICS</p>
                             </div>
                             <a class="text-dark text-decoration-none" href="#">
@@ -151,7 +165,7 @@
                         </article>
                         <article>
                             <div class="img-content-div">
-                                <img class=" w-100" src="./assets/asset 2.png" alt="pic3">
+                                <a href="#"><img class=" w-100" src="./assets/asset 2.png" alt="pic3"></a>
                                 <p class="content-type">EXPERTS</p>
                             </div>
                             <a class="text-dark text-decoration-none" href="#">
@@ -165,7 +179,7 @@
                         </article>
                         <article>
                             <div class="img-content-div">
-                                <img class=" w-100" src="./assets/asset 3.jpeg" alt="pic4">
+                                <a href="#"><img class=" w-100" src="./assets/asset 3.jpeg" alt="pic4"></a>
                                 <p class="content-type">POLITICS</p>
                             </div>
                             <a class="text-dark text-decoration-none" href="#">
@@ -178,7 +192,7 @@
                         </article>
                         <article>
                             <div class="img-content-div">
-                                <img class=" w-100" src="./assets/asset 4.jpeg" alt="pic5">
+                                <a href="#"><img class=" w-100" src="./assets/asset 4.jpeg" alt="pic5"></a>
                                 <p class="content-type">POLITICS</p>
                             </div>
                             <a class="text-dark text-decoration-none" href="#">
@@ -189,70 +203,75 @@
                             <p>The Biden Administration will issue an order stopping
                                 construction of the border wall on its first day.</p>
                         </article>
-                        <article>
-                            <div class="img-content-div">
-                                <img class=" w-100" src="./assets/asset 60.jpeg" alt="pic7">
-                                <p class="content-type-2">SPONSORED INSIGHTS</p>
-                            </div>
+                        <div class="d-none d-md-block">
+                            <article class="si-article my-4">
+                                <div class="img-content-div">
+                                    <a href="#"><img class=" w-100" src="./assets/asset 60.jpeg" alt="pic7"></a>
+                                    <p class="content-type-2">SPONSORED INSIGHTS</p>
+                                </div>
+                                <div class="border p-3">
+                                    <a class="text-dark text-decoration-none" href="#">
+                                        <h4 class="my-2 fw-bold">Hokkaido: Japan's northern Frontier
+                                        </h4>
+                                    </a>Featuring a unique history, uninhibited wildness and
+                                    at times
+                                    otherworldly natural spectacles,
+                                    Hokkaido offers an experience that is completely
+                                    different from the rest of Japan.
+                                </div>
+                            </article>
+                            <article class="si-article my-4">
+                                <div class="img-content-div">
+                                    <a href="#"><img class=" w-100" src="./assets/asset 68.jpeg" alt="pic68"></a>
+                                    <p class="content-type-2">SPONSORED INSIGHTS</p>
+                                </div>
 
-                            <a class="text-dark text-decoration-none" href="#">
-                                <h4 class="my-2">Hokkaido: Japan's northern Frontier
-                                </h4>
-                            </a>
+                                </a>
+                                <div class="border p-3">
+                                    <a class="text-dark text-decoration-none" href="#">
+                                        <h4 class="my-2">What Makes International Schools
+                                            Special?</h4>
+                                    </a>One of the single most important decisions you make for your
+                                    child is whom to entrust with their education.
+                                    See why so many parents are turning to International
+                                    Schools.
+                                </div>
+                            </article>
+                            <article class="si-article my-4">
+                                <div class="img-content-div">
+                                    <a href="#"><img class=" w-100" src="./assets/asset 62.png" alt="pic9"></a>
+                                    <p class="content-type-2">RANKINGS</p>
+                                </div>
 
-                            <p class="border border-secondary p-4">Featuring a unique history, uninhibited wildness and
-                                at times
-                                otherworldly natural spectacles,
-                                Hokkaido offers an experience that is completely
-                                different from the rest of Japan.</p>
-                        </article>
-                        <article>
-                            <div class="img-content-div">
-                                <img class=" w-100" src="./assets/asset 68.jpeg" alt="pic68">
-                                <p class="content-type-2">SPONSORED INSIGHTS</p>
-                            </div>
-                            <a class="text-dark text-decoration-none" href="#">
-                                <h4 class="my-2">What Makes International Schools
-                                    Special?</h4>
-                            </a>
-                            <p>One of the single most important decisions you make for your
-                                child is whom to entrust with their education.
-                                See why so many parents are turning to International
-                                Schools.</p>
-                        </article>
-                        <article>
-                            <div class="img-content-div">
-                                <img class=" w-100" src="./assets/asset 62.png" alt="pic9">
-                                <p class="content-type-2">RANKINGS</p>
-                            </div>
-                            <a class="text-dark text-decoration-none" href="#">
-                                <h4 class="my-2">America's Most Responsible Companies
-                                    2021</h4>
-                            </a>
-                            <p>We partnered with Statista to rank the country's Most
-                                Responsible Companies.
-                                They share the values that we all prioritize, and that's
-                                worth recognizing in 2021</p>
-                        </article>
-                        <article>
-                            <div class="img-content-div">
-                                <img class=" w-100" src="./assets/asset 63.jpeg" alt="pic10">
-                                <p class="content-type-2">SPONSORED INSIGHTS</p>
-                            </div>
-                            <a class="text-dark text-decoration-none" href="#">
-                                <h4 class="my-2">This Start Is Making Long Distance Real
-                                    Estate Investing Possible For Millenials</h4>
-                            </a>
-                            <p>75% of Roofstock users are first-time real estate investors,
-                                and more than half are under 35.</p>
-                        </article>
+                                <div class="border p-3"><a class="text-dark text-decoration-none" href="#">
+                                        <h4 class="my-2">America's Most Responsible Companies
+                                            2021</h4>
+                                    </a>We partnered with Statista to rank the country's Most
+                                    Responsible Companies.
+                                    They share the values that we all prioritize, and that's
+                                    worth recognizing in 2021</div>
+                            </article>
+                            <article class="si-article my-4">
+                                <div class="img-content-div">
+                                    <a href="#"><img class=" w-100" src="./assets/asset 63.jpeg" alt="pic10"></a>
+                                    <p class="content-type-2">SPONSORED INSIGHTS</p>
+                                </div>
+
+                                <div class="border p-3"> <a class="text-dark text-decoration-none" href="#">
+                                        <h4 class="my-2">This Start Is Making Long Distance Real
+                                            Estate Investing Possible For Millenials</h4>
+                                    </a>75% of Roofstock users are first-time real estate investors,
+                                    and more than half are under 35.</div>
+                            </article>
+                        </div>
                     </div>
 
-                    <div class="second-column-main col-5">
-                        <article>
+                    <div class="second-column-main col-lg-5 col-md-6 col-xs-12 order-5 order-md-2">
+                        <article class="d-none d-md-block">
                             <h6 class="text-secondary">TOP STORY</h6>
                             <div class="img-content-div">
-                                <img class="w-100" src="./assets/asset 5.jpeg" alt="">
+                                <a href="#" title="href-title"><img class="w-100" src="./assets/asset 5.jpeg"
+                                        alt=""></a>
                                 <p class="content-type">POLITICS</p>
                             </div>
                             <a class="text-dark text-decoration-none" href="#">
@@ -602,11 +621,12 @@
 
                     </div>
 
-                    <div class="third-column-main col-3">
+                    <div class="third-column-main col-lg-3 col-sm-12 order-3 order-md-3">
                         <h6 class="text-secondary">THE DEBATE</h6>
                         <article class="border-4 border-top border-bottom clearfix py-2">
                             <div class="my-3">
-                                <img class="float-start mx-2" src="./assets/asset 33.png" alt="">
+                                <a href="#" title="href-title"><img class="float-start mx-2" src="./assets/asset 33.png"
+                                        alt=""></a>
                                 <a class="text-dark text-decoration-none" href="#">
                                     <h6 class="fw-bold">Media Have Every Right To Cancel Trump</h6>
                                 </a>
@@ -618,7 +638,8 @@
                                 </div>
                             </div>
                             <div class="my-3">
-                                <img class="float-end" src="./assets/asset 34.png" alt="">
+                                <a href="#" title="href-title"><img class="float-end" src="./assets/asset 34.png"
+                                        alt=""></a>
                                 <a class="text-dark text-decoration-none" href="#">
                                     <h6 class="fw-bold">After Parler Ban, Rein In Big Tech Now or
                                         Cease Being Free Citizens</h6>
@@ -632,7 +653,8 @@
                         <section class="opinion-section my-4">
                             <h6 class="text-secondary">OPINION</h6>
                             <div class="clearfix border-bottom mt-3">
-                                <img class="float-start my-2 mx-2" src="./assets/asset 35.png" alt="">
+                                <a href="#" title="href-title"><img class="float-start my-2 mx-2"
+                                        src="./assets/asset 35.png" alt=""></a>
                                 <a class="text-dark text-decoration-none " href="#">
                                     <h6 class="fw-bold ">U.S. Supply Chain: Stop Driving
                                         Blind</h6>
@@ -640,7 +662,8 @@
                                 <p class="text-secondary fw-bold small">BY FRANK CILLUFFO AND STEWART BAKER</p>
                             </div>
                             <div class="clearfix border-bottom mt-3">
-                                <img class="float-start my-2 mx-2" src="./assets/asset 36.png" alt="">
+                                <a href="#" title="href-title"><img class="float-start my-2 mx-2"
+                                        src="./assets/asset 36.png" alt=""></a>
                                 <a class="text-dark text-decoration-none " href="#">
                                     <h6 class="fw-bold ">U.S. Supply Chain: Stop Driving
                                         Blind</h6>
@@ -648,7 +671,8 @@
                                 <p class="text-secondary fw-bold small">BY FRANK CILLUFFO AND STEWART BAKER</p>
                             </div>
                             <div class="clearfix border-bottom mt-3">
-                                <img class="float-start my-2 mx-2" src="./assets/asset 37.png" alt="">
+                                <a href="#" title="href-title"><img class="float-start my-2 mx-2"
+                                        src="./assets/asset 37.png" alt=""></a>
                                 <a class="text-dark text-decoration-none " href="#">
                                     <h6 class="fw-bold ">U.S. Supply Chain: Stop Driving
                                         Blind</h6>
@@ -656,7 +680,8 @@
                                 <p class="text-secondary fw-bold small">BY FRANK CILLUFFO AND STEWART BAKER</p>
                             </div>
                             <div class="clearfix border-bottom mt-3">
-                                <img class="float-start my-2 mx-2" src="./assets/asset 38.png" alt="">
+                                <a href="#" title="href-title"><img class="float-start my-2 mx-2"
+                                        src="./assets/asset 38.png" alt=""></a>
                                 <a class="text-dark text-decoration-none " href="#">
                                     <h6 class="fw-bold ">U.S. Supply Chain: Stop Driving
                                         Blind</h6>
@@ -664,7 +689,8 @@
                                 <p class="text-secondary fw-bold small">BY FRANK CILLUFFO AND STEWART BAKER</p>
                             </div>
                             <div class="clearfix border-bottom mt-3">
-                                <img class="float-start my-2 mx-2" src="./assets/asset 39.png" alt="">
+                                <a href="#" title="href-title"><img class="float-start my-2 mx-2"
+                                        src="./assets/asset 39.png" alt=""></a>
                                 <a class="text-dark text-decoration-none " href="#">
                                     <h6 class="fw-bold ">U.S. Supply Chain: Stop Driving
                                         Blind</h6>
@@ -672,7 +698,8 @@
                                 <p class="text-secondary fw-bold small">BY FRANK CILLUFFO AND STEWART BAKER</p>
                             </div>
                             <div class="clearfix border-bottom mt-3">
-                                <img class="float-start my-2 mx-2" src="./assets/asset 40.png" alt="">
+                                <a href="#" title="href-title"><img class="float-start my-2 mx-2"
+                                        src="./assets/asset 40.png" alt=""></a>
                                 <a class="text-dark text-decoration-none " href="#">
                                     <h6 class="fw-bold ">U.S. Supply Chain: Stop Driving
                                         Blind</h6>
@@ -680,7 +707,8 @@
                                 <p class="text-secondary fw-bold small">BY FRANK CILLUFFO AND STEWART BAKER</p>
                             </div>
                             <div class="clearfix border-bottom mt-3">
-                                <img class="float-start my-2 mx-2" src="./assets/asset 41.png" alt="">
+                                <a href="#" title="href-title"><img class="float-start my-2 mx-2"
+                                        src="./assets/asset 41.png" alt=""></a>
                                 <a class="text-dark text-decoration-none " href="#">
                                     <h6 class="fw-bold ">U.S. Supply Chain: Stop Driving
                                         Blind</h6>
@@ -689,53 +717,148 @@
                             </div>
 
                         </section>
+                        <section class="d-none d-md-block">
+                            <article class="si-article my-4">
+                                <div class="img-content-div">
+                                    <a href="#"><img class=" w-100" src="./assets/asset 65.jpeg" alt="pic65"></a>
+                                    <p class="content-type-2">SPONSORED INSIGHTS</p>
+                                </div>
+                                <div class="border p-3"><a class="text-dark text-decoration-none" href="#">
+                                        <h4 class="my-2">Hungary: From Manufacturing Hub to Innovation and R&D; Center
+                                        </h4>
+                                    </a>With its pro-business agenda and open-border
+                                    policy for investors, the Central European nation is hoping to bounce back from the
+                                    COVID-19 crisis,
+                                    while making greater strides toward innovation, research and development.</div>
+                            </article>
 
-                        <article class="sponsored insights">
-                            <div>
-                                <img class=" w-100" src="./assets/asset 65.jpeg" alt="pic65">
-                                <p class="position-relative ">SPONSORED INSIGHTS</p>
-                            </div>
+                            <section class="si-article free-sign-section bg-light p-4 border">
+                                <a href="#" title="href-title"><img class="bg-danger float-start my-1 mx-2"
+                                        src="https://g.newsweek.com/www/images/logo-n1.svg" alt=""></a>
+                                <h6>START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
+                                <form action="#">
+                                    <label for="tf"></label>
+                                    <input id="tf" class="w-100" type="email" name="tf" placeholder="Email address">
+                                    <label for="sb"></label>
+                                    <input id="sb" class="btn btn-danger w-100" type="button" value="FREE SIGN UP">
+                                </form>
 
-                            <a class="text-dark text-decoration-none" href="#">
-                                <h4 class="my-2">Hungary: From Manufacturing Hub to Innovation and R&D; Center
-                                </h4>
-                            </a>
+                            </section>
 
-                            <p class="border border-secondary p-4">With its pro-business agenda and open-border
-                                policy for investors, the Central European nation is hoping to bounce back from the
-                                COVID-19 crisis,
-                                while making greater strides toward innovation, research and development.</p>
-                        </article>
+                            <section class="si-article sp-section">
+                                <article class="my-4 sponsored insights">
+                                    <div class="img-content-div">
+                                        <a href="#"><img class=" w-100" src="./assets/asset 68.jpeg" alt="pic65"></a>
+                                        <p class="content-type-2">SPONSORED INSIGHTS</p>
+                                    </div>
 
-                        <section class="free-sign-section bg-light p-4 border">
-                            <img class="bg-danger float-start my-1 mx-2"
-                                src="https://g.newsweek.com/www/images/logo-n1.svg" alt="">
-                            <h6>START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
-                            <form action="#">
-                                <label for="tf"></label>
-                                <input id="tf" class="w-100" type="email" name="tf" placeholder="Email address">
-                                <label for="sb"></label>
-                                <input id="sb" class="btn btn-danger w-100" type="button" value="FREE SIGN UP">
-                            </form>
+                                    <div class="border p-3"><a class="text-dark text-decoration-none" href="#">
+                                            <h4 class="my-2">Panama - Central America's Leading Investment Destination
+                                            </h4>
+                                        </a>Panama is expected to rebound strongly in 2021,
+                                        with
+                                        growth forecasted between 4% and 7%.</div>
+                                </article>
 
+                                <article class="si-article my-4 sponsored insights">
+                                    <div class="img-content-div">
+                                        <a href="#"><img class=" w-100" src="./assets/asset 69.jpeg" alt="pic65"></a>
+                                        <p class="content-type-2">SPONSORED INSIGHTS</p>
+                                    </div>
+                                    <div class="border p-3">
+                                        <a class="text-dark text-decoration-none" href="#">
+                                            <h4 class="my-2">Why are Private Schools the Best Option for Your Child’s
+                                                Future?
+                                            </h4>
+                                        </a>If academic results, average class size, teacher
+                                        proficiency, pupil diversity and religious orthodoxy of your child’s school are
+                                        things
+                                        that are important to you, you should be looking at a private school.
+                                    </div>
+                                </article>
+
+                                <article class="si-article my-4 sponsored insights">
+                                    <div class="img-content-div">
+                                        <a href="#"><img class=" w-100" src="./assets/asset 70.jpeg" alt="pic65"></a>
+                                        <p class="content-type-2">RANKINGS</p>
+                                    </div>
+
+                                    <div class="border p-3">
+                                        <a class="text-dark text-decoration-none" href="#">
+                                            <h4 class="my-2">America's Best Nursing Homes 2021
+                                            </h4>
+                                        </a>In partnership with Statista, we established a
+                                        ranking providing information and insights to help you during this challenging
+                                        time.
+                                    </div>
+                                </article>
+                            </section>
                         </section>
-
-                        <article class="sponsored insights">
-                            <div>
-                                <img class=" w-100" src="./assets/asset 68.jpeg" alt="pic65">
-                                <p>SPONSORED INSIGHTS</p>
-                            </div>
-
-                            <a class="text-dark text-decoration-none" href="#">
-                                <h4 class="my-2">Panama - Central America's Leading Investment Destination
-                                </h4>
-                            </a>
-
-                            <p class="border border-secondary p-4">Panama is expected to rebound strongly in 2021, with
-                                growth forecasted between 4% and 7%.</p>
-                        </article>
-
                     </div>
+
+                    <section class="d-block d-md-none order-4">
+                        <article class="si-article my-4">
+                            <div class="img-content-div">
+                                <a href="#"><img class=" w-100" src="./assets/asset 60.jpeg" alt="pic7"></a>
+                                <p class="content-type-2">SPONSORED INSIGHTS</p>
+                            </div>
+                            <div class="border p-3">
+                                <a class="text-dark text-decoration-none" href="#">
+                                    <h4 class="my-2 fw-bold">Hokkaido: Japan's northern Frontier
+                                    </h4>
+                                </a>Featuring a unique history, uninhibited wildness and
+                                at times
+                                otherworldly natural spectacles,
+                                Hokkaido offers an experience that is completely
+                                different from the rest of Japan.
+                            </div>
+                        </article>
+                        <article class="si-article my-4">
+                            <div class="img-content-div">
+                                <a href="#"><img class=" w-100" src="./assets/asset 68.jpeg" alt="pic68"></a>
+                                <p class="content-type-2">SPONSORED INSIGHTS</p>
+                            </div>
+
+                            </a>
+                            <div class="border p-3">
+                                <a class="text-dark text-decoration-none" href="#">
+                                    <h4 class="my-2">What Makes International Schools
+                                        Special?</h4>
+                                </a>One of the single most important decisions you make for your
+                                child is whom to entrust with their education.
+                                See why so many parents are turning to International
+                                Schools.
+                            </div>
+                        </article>
+                        <article class="si-article my-4">
+                            <div class="img-content-div">
+                                <a href="#"><img class=" w-100" src="./assets/asset 62.png" alt="pic9"></a>
+                                <p class="content-type-2">RANKINGS</p>
+                            </div>
+
+                            <div class="border p-3"><a class="text-dark text-decoration-none" href="#">
+                                    <h4 class="my-2">America's Most Responsible Companies
+                                        2021</h4>
+                                </a>We partnered with Statista to rank the country's Most
+                                Responsible Companies.
+                                They share the values that we all prioritize, and that's
+                                worth recognizing in 2021</div>
+                        </article>
+                        <article class="si-article my-4">
+                            <div class="img-content-div">
+                                <a href="#"><img class=" w-100" src="./assets/asset 63.jpeg" alt="pic10"></a>
+                                <p class="content-type-2">SPONSORED INSIGHTS</p>
+                            </div>
+
+                            <div class="border p-3"> <a class="text-dark text-decoration-none" href="#">
+                                    <h4 class="my-2">This Start Is Making Long Distance Real
+                                        Estate Investing Possible For Millenials</h4>
+                                </a>75% of Roofstock users are first-time real estate investors,
+                                and more than half are under 35.</div>
+                        </article>
+                    </section>
+
+
 
 
                 </div>
@@ -743,7 +866,7 @@
             </div>
         </section>
     </main>
-    <footer style="position: relative; bottom: 0; left: 0; right: 0;">
+    <footer>
         <div class="container-xl">
             <div class="row list-unstyled d-flex flex-column flex-lg-row align-items-center">
                 <div class="col mt-2 d-lg-flex"><a href="#" title="logo-img"><img src="./assets/Newsweeklogo2.png"
