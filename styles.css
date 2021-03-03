@@ -1,4 +1,88 @@
-body {
+.img-content-div img {
+  background-size: cover;
+}
+
+.img-content-div {
+  position: relative;
+  color: #f72210;
+  font-weight: 750;
+}
+
+.content-type-3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.85;
   margin: 0;
-  padding: 0;
+  padding: 0.25rem;
+  color: black;
+}
+
+.content-type-black {
+  color: black;
+}
+
+.content-type-blue {
+  color: #3d86f4;
+}
+
+.content-type {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.85;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.free-sign-section img {
+  width: 2rem;
+}
+
+.first-debate-div {
+  border-bottom: 3px double rgb(207, 207, 207);
+  position: relative;
+  height: 2rem;
+}
+
+.vs-span {
+  position: absolute;
+  bottom: -70%;
+  left: 46%;
+}
+
+@media only screen and (min-width: 992px) {
+  .first-column-main,
+  .third-column-main {
+    width: 27.766666666%;
+  }
+
+  .second-column-main {
+    width: 44.4666666%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .si-article {
+    width: 100%;
+    margin: auto;
+  }
+
+  .my-turn-section .row,
+  .culture-travel-section .row {
+    flex-direction: column;
+  }
+
+  .free-sign-section {
+    width: 20rem;
+  }
 }
