@@ -19,14 +19,11 @@
   color: black;
 }
 
-.content-type-2 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: white;
-  opacity: 0.85;
-  margin: 0;
-  padding: 0.5rem;
+.content-type-black {
+  color: black;
+}
+
+.content-type-blue {
   color: #3d86f4;
 }
 
@@ -38,6 +35,29 @@
   opacity: 0.85;
   margin: 0;
   padding: 0.5rem;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.free-sign-section img {
+  width: 2rem;
+}
+
+.first-debate-div {
+  border-bottom: 3px double rgb(207, 207, 207);
+  position: relative;
+  height: 2rem;
+}
+
+.vs-span {
+  position: absolute;
+  bottom: -70%;
+  left: 46%;
 }
 
 @media only screen and (min-width: 992px) {
@@ -73,27 +93,4 @@
   .free-sign-section {
     width: 20rem;
   }
-}
-
-.free-sign-section img {
-  width: 2rem;
-}
-
-footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.first-debate-div {
-  border-bottom: 3px double rgb(207, 207, 207);
-  position: relative;
-  height: 2rem;
-}
-
-.vs-span {
-  position: absolute;
-  bottom: -70%;
-  left: 46%;
 }
