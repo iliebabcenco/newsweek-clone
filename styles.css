@@ -42,8 +42,8 @@
 }
 
 .logo-div {
-  margin: 37%;
-  
+  margin: 0 auto;
+
 }
 
 footer {
@@ -53,10 +53,10 @@ footer {
   right: 0;
 }
 
-.free-sign-section img ,.logo-div img{
+.free-sign-section img,
+.logo-div img {
   width: 2rem;
 }
-
 
 .first-debate-div {
   border-bottom: 3px double rgb(207, 207, 207);
@@ -71,6 +71,7 @@ footer {
 }
 
 @media only screen and (min-width: 992px) {
+
   .first-column-main,
   .third-column-main {
     width: 27.766666666%;
