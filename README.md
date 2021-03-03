@@ -26,8 +26,8 @@ It has:
 👤 **Juliana Osemeke**
 
 - GitHub: [@julianaosemeke](https://github.com/JulianaOsemeke)
-- LinkedIn: [@iliebabcenco](http://www.linkedin.com/in/juliana-osemeke)
-- Twitter: [@iliebabcenco](https://twitter.com/julianaosemeke)
+- LinkedIn: [@julianaosemeke](http://www.linkedin.com/in/juliana-osemeke)
+- Twitter: [@julianaosemeke](https://twitter.com/julianaosemeke)
 
 ## Live Demo
 
