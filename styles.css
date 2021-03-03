@@ -45,13 +45,9 @@
   margin: 0 auto;
 }
 
-.signup-img {
-  width: 10rem;
-  height: 20rem;
-} 
-
-.form-control {
-  width: 10rem;
+.form-text {
+  padding: 0.3rem 0 0.5rem 0;
+  margin: 0;
 }
 
 .cover15-img {
@@ -59,12 +55,6 @@
   position: absolute;
   top: 5%;
   left: 40%;
-}
-
-.bottom-img-div {
-  float: left;
-  position: relative;
-  width: 40%;
 }
 
 footer {
@@ -91,8 +81,14 @@ footer {
   left: 46%;
 }
 
-@media only screen and (min-width: 992px) {
+.back-image-div {
+  background-image: url("./assets/starting5-homepage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
 
+@media only screen and (min-width: 992px) {
   .first-column-main,
   .third-column-main {
     width: 27.766666666%;
@@ -100,6 +96,10 @@ footer {
 
   .second-column-main {
     width: 44.4666666%;
+  }
+
+  .back-image-div {
+    height: 25rem;
   }
 }
 
@@ -116,5 +116,18 @@ footer {
 
   .free-sign-section {
     width: 20rem;
+  }
+
+  .first-article-img {
+    height: auto;
+  }
+
+  .floating-img {
+    width: 40%;
+  }
+
+  .back-image-div {
+    width: auto;
+    height: 170px;
   }
 }
