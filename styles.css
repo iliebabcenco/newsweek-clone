@@ -37,6 +37,12 @@
   padding: 0.5rem;
 }
 
+.first-article-img {
+  height: 19rem;
+}
+
+
+
 footer {
   position: relative;
   bottom: 0;
@@ -44,9 +50,10 @@ footer {
   right: 0;
 }
 
-.free-sign-section img {
+.free-sign-section img ,.logo-div img{
   width: 2rem;
 }
+
 
 .first-debate-div {
   border-bottom: 3px double rgb(207, 207, 207);
