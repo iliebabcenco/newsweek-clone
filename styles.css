@@ -41,6 +41,7 @@
 }
 
 @media only screen and (min-width: 992px) {
+
   .first-column-main,
   .third-column-main {
     width: 27.766666666%;
@@ -83,4 +84,16 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.first-debate-div {
+  border-bottom: 3px double rgb(207, 207, 207);
+  position: relative;
+  height: 2rem;
+}
+
+.vs-span {
+  position: absolute;
+  bottom: -70%;
+  left: 46%;
 }
