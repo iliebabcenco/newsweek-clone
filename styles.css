@@ -41,7 +41,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-
   .first-column-main,
   .third-column-main {
     width: 27.766666666%;
@@ -50,25 +49,30 @@
   .second-column-main {
     width: 44.4666666%;
   }
-
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 768px) {
   .si-article {
     width: 20rem;
     margin: auto;
   }
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 768px) {
   .si-article {
     width: 100%;
     margin: auto;
   }
+
+  .my-turn-section .row,
+  .culture-travel-section .row {
+    flex-direction: column;
+  }
+
+  .free-sign-section {
+    width: 20rem;
+  }
 }
-
-
-
 
 .free-sign-section img {
   width: 2rem;
