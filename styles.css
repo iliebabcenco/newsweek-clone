@@ -43,7 +43,28 @@
 
 .logo-div {
   margin: 0 auto;
+}
 
+.signup-img {
+  width: 10rem;
+  height: 20rem;
+} 
+
+.form-control {
+  width: 10rem;
+}
+
+.cover15-img {
+  width: 10.5rem;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.bottom-img-div {
+  float: left;
+  position: relative;
+  width: 40%;
 }
 
 footer {
