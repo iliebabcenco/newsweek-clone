@@ -6,7 +6,8 @@
 There we have applied Bootstrap.
 It has:
 - a responsive header;
-- a responsive main with three responsive columns;
+- a responsive first-part main section with three responsive columns;
+- a responsive second-part main section with four responsive sections;
 - a responsive footer.
 
 <img src="assets/1.png">
