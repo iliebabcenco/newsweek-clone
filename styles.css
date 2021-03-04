@@ -3,11 +3,11 @@
 }
 
 #firstbutton:hover {
-  transform: scale(1,1.5);
+  transform: scale(1, 1.5);
 }
 
 img:hover {
-  transform: scale(1,1.1);
+  transform: scale(1, 1.1);
 }
 
 #nws-logo {
@@ -29,16 +29,16 @@ img:hover {
   transition-duration: 0.1s;
 }
 
-.list-group1 a:hover {
-  color: red;
-}
-
 .list-group2 a {
   color: grey;
   text-decoration: none;
   transition-property: color;
   transition-duration: 0.1s;
-} 
+}
+
+.list-group1 a:hover {
+  color: red;
+}
 
 .list-group2 a:hover {
   color: red;
