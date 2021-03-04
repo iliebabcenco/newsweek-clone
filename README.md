@@ -6,7 +6,8 @@
 There we have applied Bootstrap.
 It has:
 - a responsive header;
-- a responsive main with three responsive columns;
+- a responsive first-part main section with three responsive columns;
+- a responsive second-part main section with four responsive sections;
 - a responsive footer.
 
 <img src="assets/1.png">
@@ -26,8 +27,8 @@ It has:
 👤 **Juliana Osemeke**
 
 - GitHub: [@julianaosemeke](https://github.com/JulianaOsemeke)
-- LinkedIn: [@iliebabcenco](http://www.linkedin.com/in/juliana-osemeke)
-- Twitter: [@iliebabcenco](https://twitter.com/julianaosemeke)
+- LinkedIn: [@julianaosemeke](http://www.linkedin.com/in/juliana-osemeke)
+- Twitter: [@julianaosemeke](https://twitter.com/julianaosemeke)
 
 ## Live Demo
 

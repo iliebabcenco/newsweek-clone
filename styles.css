@@ -37,6 +37,26 @@
   padding: 0.5rem;
 }
 
+.first-article-img {
+  height: 19rem;
+}
+
+.logo-div {
+  margin: 0 auto;
+}
+
+.form-text {
+  padding: 0.3rem 0 0.5rem 0;
+  margin: 0;
+}
+
+.cover15-img {
+  width: 10.5rem;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
 footer {
   position: relative;
   bottom: 0;
@@ -44,7 +64,8 @@ footer {
   right: 0;
 }
 
-.free-sign-section img {
+.free-sign-section img,
+.logo-div img {
   width: 2rem;
 }
 
@@ -60,6 +81,13 @@ footer {
   left: 46%;
 }
 
+.back-image-div {
+  background-image: url("./assets/starting5-homepage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+
 @media only screen and (min-width: 992px) {
   .first-column-main,
   .third-column-main {
@@ -68,6 +96,10 @@ footer {
 
   .second-column-main {
     width: 44.4666666%;
+  }
+
+  .back-image-div {
+    height: 25rem;
   }
 }
 
@@ -84,5 +116,18 @@ footer {
 
   .free-sign-section {
     width: 20rem;
+  }
+
+  .first-article-img {
+    height: auto;
+  }
+
+  .floating-img {
+    width: 40%;
+  }
+
+  .back-image-div {
+    width: auto;
+    height: 170px;
   }
 }
