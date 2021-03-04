@@ -2,6 +2,22 @@
   background-size: cover;
 }
 
+#firstbutton:hover {
+  transform: scale(1,1.5);
+}
+
+img:hover {
+  transform: scale(1,1.1);
+}
+
+ #head-logo img{
+  transform : rotate(360deg);
+}
+
+#middletext a:hover {
+  color: red;
+} 
+
 .img-content-div {
   position: relative;
   color: #f72210;
