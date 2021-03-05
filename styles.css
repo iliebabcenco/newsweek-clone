@@ -2,6 +2,52 @@
   background-size: cover;
 }
 
+#firstbutton:hover {
+  transform: scale(1, 1.5);
+}
+
+img:hover {
+  transform: scale(1, 1.1);
+}
+
+#nws-logo {
+  animation-name: slip;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+
+@keyframes slip {
+   0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.list-group1 a {
+  text-decoration: none;
+  color: black;
+  transition-property: color;
+  transition-duration: 0.1s;
+}
+
+.list-group2 a {
+  color: grey;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.1s;
+}
+
+.list-group1 a:hover {
+  color: red;
+}
+
+.list-group2 a:hover {
+  color: red;
+}
+
 .img-content-div {
   position: relative;
   color: #f72210;
